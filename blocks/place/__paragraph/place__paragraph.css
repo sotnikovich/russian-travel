@@ -1,0 +1,11 @@
+.place__paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    max-width: 484px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 0;
+}
