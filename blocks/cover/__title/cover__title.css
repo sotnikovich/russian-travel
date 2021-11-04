@@ -1,11 +1,10 @@
-.place__title {
+.cover__title {
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
+    text-align: center;
     color: #FFFFFF;
-    max-width: 460px;
-    grid-area: title;
-    margin: 0;
-    align-self: end;
+    margin: auto auto 0;
+    max-width: 560px;
 }

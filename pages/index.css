@@ -39,3 +39,16 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__text/place__text.css);
+
+/*cover*/
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+/*footer*/
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

@@ -1,8 +1,10 @@
 .place {
     max-width: 984px;
-    min-height: max-content;
     display: grid;
-    grid-template-columns: 460px 460px;
-    grid-auto-rows: min-content;
-    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: min-content 1fr;
+    column-gap: 40px;
+    row-gap: 48px;
+    grid-template-areas: "title website" "image paragraph";
+    margin: 4em 0 0;
 }

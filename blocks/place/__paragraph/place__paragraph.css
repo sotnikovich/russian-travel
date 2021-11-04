@@ -5,7 +5,6 @@
     line-height: 163%;
     color: #FFFFFF;
     max-width: 484px;
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-area: paragraph;
     margin: 0;
 }

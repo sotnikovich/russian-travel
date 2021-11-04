@@ -1,9 +1,10 @@
-.place__link {
+.cover__subtitle {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 122%;
-    text-decoration-line: underline;
+    text-align: center;
     color: #FFFFFF;
-    margin: 0;
+    margin: 2rem auto 0;
+    max-width: 360px;
 }
