@@ -5,6 +5,17 @@
     line-height: 122%;
     text-align: center;
     color: #FFFFFF;
-    margin: 2rem auto 0;
+    margin: 32px auto 0;
     max-width: 360px;
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 16px auto auto;
+        padding: 0 16px 0;
+    }
 }

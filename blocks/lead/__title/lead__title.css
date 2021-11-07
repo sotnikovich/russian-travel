@@ -5,6 +5,15 @@
     font-size: 96px;
     line-height: 104%;
     text-align: center;
-    width: 60%;
-    margin: 0;
+    max-width: 720px;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        width: 90%;
+        font-size: calc(40px + 56 * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(110% - ((100vw - 320px) / (768 - 320)));
+    }
 }

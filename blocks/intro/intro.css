@@ -2,3 +2,10 @@
     margin: 5.75em auto;
     width: 80%;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 64px auto;
+        width: 90%;
+    }
+}

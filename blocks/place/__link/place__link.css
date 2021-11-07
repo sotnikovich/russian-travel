@@ -7,3 +7,7 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+.place__link:hover {
+    opacity: 0.8;
+}

@@ -1,8 +1,16 @@
 .header {
-    min-height: max-content;
-    width: 90%;
+    max-width: 92.5%;
+    max-height: min-content;
     display: flex;
-    align-items: center;
-    margin: auto;
-    padding: 1em 0 3.5em;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    padding: 1.75em 0 3.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 12px;
+        max-width: calc(100%-32px);
+    }
 }

@@ -5,7 +5,16 @@
     line-height: 106%;
     color: #FFFFFF;
     max-width: 460px;
+    width: 100vw;
     grid-area: title;
-    margin: 0;
-    align-self: end;
+    margin: 0 auto 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: calc(32px + 10 * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(109% - ((100vw - 320px) / (768 - 320)));
+        width: 90%;
+        margin: 0 auto;
+    }
 }

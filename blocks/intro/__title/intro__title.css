@@ -5,4 +5,15 @@
     font-size: 54px;
     line-height: 107%;
     margin: 0;
+    max-width: 720px;
+    width: 100vh;
+    text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        font-size: calc(32px + 22 * ((100vw - 320px) / (768 - 320)));
+        line-height: calc(109% - ((100vw - 320px) / (768 - 320)));
+        width: calc(288px + 432 * ((100vw - 320px) / (768 - 320)));
+    }
 }
