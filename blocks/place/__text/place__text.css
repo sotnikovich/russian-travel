@@ -8,3 +8,9 @@
     margin: 0 auto;
     max-width: 484px;
 }
+
+@media screen and (max-width: 639px) {
+    .place__text {
+        max-width: 90%;
+    }
+}

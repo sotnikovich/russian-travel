@@ -16,3 +16,9 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 639px) {
+    .place__title {
+        max-width: 90%;
+    }
+}

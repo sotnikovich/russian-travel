@@ -9,6 +9,18 @@
     flex-basis: 60%;
 }
 
+@media screen and (min-width: 1024px) {
+    .footer__copyright {
+        flex-basis: calc(50% + 10 * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .footer__copyright {
+        flex-basis: calc(30% + 22 * ((100vw - 767px) / (1024 - 767)));
+    }
+}
+
 @media screen and (max-width: 767px) {
     .footer__copyright {
         text-align: left;

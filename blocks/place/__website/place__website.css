@@ -4,3 +4,9 @@
     width: 100%;
     align-self: end;
 }
+
+@media screen and (max-width: 639px) {
+    .place__website {
+        max-width: 90%;
+    }
+}

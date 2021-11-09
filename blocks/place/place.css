@@ -11,6 +11,5 @@
      .place {
          grid-template-areas: "title" "website" "image" "text";
          grid-template-columns: minmax(min-content, max-content);
-         text-align: center;
      }
  }
