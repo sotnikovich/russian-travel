@@ -4,27 +4,7 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    max-width: 484px;
     grid-area: text;
     margin: 0 auto;
-}
-
-@media screen and (max-width: 1280px) {
-    .place__text {
-        width: calc(456px + 28 * ((100vw - 1024px) / (1280 - 1024)));
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .place__text {
-        width: calc(352px + 104 * ((100vw - 768px) / (1024 - 768)));
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .place__text {
-        width: calc(288px + 64 * ((100vw - 320px) / (760 - 320)));
-        font-size: 16px;
-        margin: 25px auto 0;
-    }
+    max-width: 484px;
 }
