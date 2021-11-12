@@ -17,7 +17,7 @@
     opacity: 0.8;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .header__lang-link {
         padding-bottom: 1%;
     }
