@@ -12,8 +12,10 @@
     padding-top: 21%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         font-size: calc(32px + 40 * ((100vw - 320px) / (767 - 320)));
+        max-width: 79.69%;
+        padding-top: 13%;
     }
 }

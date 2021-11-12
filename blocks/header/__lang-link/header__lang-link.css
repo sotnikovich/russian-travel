@@ -8,18 +8,6 @@
     padding-bottom: 2%;
 }
 
-@media screen and (min-width: 1024px) {
-    .header__lang-link {
-        padding-bottom: 1%;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .header {
-        font-size: 12px;
-    }
-}
-
 .header__lang-link:last-child {
     text-decoration-line: none;
     margin: 0;
@@ -27,4 +15,16 @@
 
 .header__lang-link:hover {
     opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__lang-link {
+        padding-bottom: 1%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
 }

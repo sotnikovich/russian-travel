@@ -5,7 +5,7 @@
     line-height: 122%;
     text-align: center;
     color: #FFFFFF;
-    margin: 3% auto 0;
+    margin: 32px auto 0;
     max-width: 360px;
     z-index: 1;
     position: relative;
@@ -16,5 +16,8 @@
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
+        margin: 16px auto 0;
+        padding-bottom: 13%;
+        max-width: 79.69%;
     }
 }
