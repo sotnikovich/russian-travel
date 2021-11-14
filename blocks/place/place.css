@@ -2,16 +2,43 @@
      display: grid;
      grid-template-columns: 46.75% 1fr;
      row-gap: 48px;
-     column-gap: 4.07%;
+     column-gap: 40px;
      grid-template-areas: "title website" "image text";
-     margin: 64px 0 0;
+     margin: 0 0 80px;
+ }
+
+ .place:last-child {
+     margin: 0 0 92px;
+ }
+
+ @media screen and (max-width: 1024px) {
+     .place {
+         column-gap: 32px;
+         grid-template-columns: 47.41% 1fr;
+     }
+ }
+
+ @media screen and (max-width: 1024px) {
+     .place {
+         column-gap: 28px;
+         grid-template-columns: 47.22% 1fr;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+     .place {
+         margin: 0 0 73px;
+     }
  }
 
  @media screen and (max-width: 639px) {
      .place {
          grid-template-areas: "title" "website" "image" "text";
          grid-template-columns: minmax(min-content, max-content);
-         row-gap: 32px;
+         gap: 32px;
+         margin: 50px 0 0;
+     }
+     .place:last-child {
          margin: 50px 0 0;
      }
  }

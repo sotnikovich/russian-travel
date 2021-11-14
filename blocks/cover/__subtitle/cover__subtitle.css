@@ -12,12 +12,24 @@
     padding-bottom: 21%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        padding-bottom: 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        padding-bottom: 115px;
+    }
+}
+
+@media screen and (max-width: 425px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
         margin: 16px auto 0;
-        padding-bottom: 13%;
-        max-width: 79.69%;
+        padding-bottom: 33px;
+        max-width: 80%;
     }
 }

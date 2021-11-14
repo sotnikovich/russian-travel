@@ -8,6 +8,16 @@
     position: relative;
 }
 
+.cover:before {
+    content: "";
+    position: absolute;
+    background: rgba(42, 44, 47, 0.3);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
 .cover:hover:before {
     content: "";
     position: absolute;
@@ -16,4 +26,12 @@
     right: 0;
     left: 0;
     bottom: 0;
+    transition: 0.2s ease-in-out 0.1s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        margin: 66px auto 64px;
+    }
 }

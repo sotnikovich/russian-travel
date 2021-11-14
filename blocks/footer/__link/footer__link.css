@@ -17,3 +17,12 @@
         line-height: 1;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+        margin-bottom: 32px;
+    }
+    .footer__link:last-child {
+        margin-bottom: 48px;
+    }
+}

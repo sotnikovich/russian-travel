@@ -1,0 +1,36 @@
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 40%;
+}
+
+@media screen and (max-width: 1130px) {
+    .footer__links {
+        flex-basis: 45%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__links {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .footer__links {
+        flex-basis: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__links {
+        flex-basis: 67%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        flex-direction: column;
+        text-align: left;
+    }
+}
