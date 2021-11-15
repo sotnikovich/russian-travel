@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 768px) {
     .footer__links {
-        flex-basis: 67%;
+        flex-basis: 64%;
     }
 }
 

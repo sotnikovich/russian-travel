@@ -19,13 +19,7 @@
 }
 
 .cover:hover:before {
-    content: "";
-    position: absolute;
     background: rgba(42, 44, 47, 0.8);
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
     transition: 0.2s ease-in-out 0.1s;
     cursor: pointer;
 }

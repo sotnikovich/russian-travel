@@ -9,6 +9,12 @@
     text-align: start;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+    .intro__title {
+        max-width: 690px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .intro__title {
         font-size: 32px;
