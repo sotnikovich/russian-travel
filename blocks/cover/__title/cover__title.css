@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .cover__title {
         padding-top: 115px;
     }
